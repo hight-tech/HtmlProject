@@ -4,28 +4,49 @@
 		<meta charset="utf-8" />
 		<title></title>
 		<link href="css/index.css" type="text/css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/nav.css">
+		<!--<style>
+			body{
+				/*background-color: rgb(157,36,36);*/
+				background: url(img/login_bgcolor.png);
+			}
+		</style>-->
 	</head>
 	<body>
 		<!-- 头部top -->
 		<div id="top">
 			<div class="top_center">
-				<div class="top_center_log"></div>
+				<!--logo-->
+				<div class="top_center_log">
+					<img src="img/logo.jpg" width="100%"/>
+				</div>
+				<!--搜索框-->
+				<div class="top_center_search">
+					<form class="search">
+						<input name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
+						<input id="ai-topsearch" value="搜索"  type="submit">
+					</form>
+				</div>
 			</div>
 		</div>
 		<!-- 导航栏nav -->
 		<div id="nav">
 				<ul class="nav_center">
-					<li><a href="#">首页</a></li>
-					<li><a href="#">我的非遗</a></li>
-					<li><a href="#">非遗会员</a></li>
-					<li><a href="#">非遗客服</a></li>
-					<li><a href="#">非遗文化</a></li>
-					<li><a href="#">关于我们</a></li>
+					<a href="index.html"><li style="background-color: brown;">首页</li></a>
+					<a href="#"><li>我的非遗</li></a>
+					<a href="#"><li>非遗会员</li></a>
+					<a href="#"><li>非遗客服</li></a>
+					<a href="#"><li>非遗文化</li></a>
+					<a href="#"><li>关于我们</li></a>
 				</ul>
-			
 		</div>
 		<!-- 轮播图banner -->
-		<div id="banner"></div>
+		<div id="banner">
+				<img class="img-slide img1" src="img/lb1.png"  width="100%"/>
+				<img class="img-slide img2" src="img/lb2.png" width="100%"/>
+				<img class="img-slide img3" src="img/lb3.png" width="100%"/>
+		</div>
+
 		<!-- 腰带belt -->
 		<div id="belt"></div>
 		<!-- 主体center -->
@@ -37,41 +58,47 @@
 			<!-- 商品 -->
 			<div class="center_down">
 				<div class="center_down_box">
-					<div style="background-color: rgb(49,99,146); width: 100%; height: 400px;"></div>
-					<p>价格：1200 元<br/>
-						纸老虎
+					<div style="background-color: rgb(49,99,146); width: 100%; height: 400px;">
+						<img src="img/剪纸1号.png" height="450" width="350"/></div>
+					<p>价格：12 元<br/>
+						剪纸
 					</p>
 				</div>
 				<div class="center_down_box">
-					<div style="background-color: rgb(49,99,100); width: 100%; height: 400px;"></div>
-					<p>价格：800 元<br/>
-					汉服
+					<div style="background-color: rgb(49,99,100); width: 100%; height: 400px;">
+						<img src="img/分水油纸伞1号.png" height="450" width="350"/></div>
+					<p>价格：50 元<br/>
+					分水油纸伞
 					</p>
 				</div>
 					
 				<div class="center_down_box">
-					<div style="background-color: rgb(49,99,0); width: 100%; height: 400px;"></div>
-					<p>价格：600 元<br/>
-						不知道
+					<div style="background-color: rgb(49,99,0); width: 100%; height: 400px;">
+						<img src="img/弓箭2号.png" height="450" width="350"/></div>
+					<p>价格：200 元<br/>
+						弓箭
 					</p>
 				</div>
 				<div class="center_down_box">
-					<div style="background-color: rgb(49,99,146); width: 100%; height: 400px;"></div>
+					<div style="background-color: rgb(49,99,146); width: 100%; height: 400px;">
+						<img src="img/竹林七贤3号.png" height="450" width="350"/></div>
 					<p>价格：688 元<br/>
-					哈哈哈
+					毛猴*竹林七贤
 					</p>
 				</div>
 				<div class="center_down_box">
-					<div style="background-color: rgb(49,99,100); width: 100%; height: 400px;"></div>
+					<div style="background-color: rgb(49,99,100); width: 100%; height: 400px;">
+						<img src="img/毛猴-桃园结义1号.png" height="450" width="350"/></div>
 					<p>价格：568 元<br/>
-					哦呵呵
+						毛猴*桃园结义
 					</p>
 				</div>
 					
 				<div class="center_down_box">
-					<div style="background-color: rgb(49,99,0); width: 100%; height: 400px;"></div>
+					<div style="background-color: rgb(49,99,0); width: 100%; height: 400px;">
+						<img src="img/毛猴-西游记.png" height="450" width="350"/></div>
 					<p>价格：456 元<br/>
-						啊啊啊
+						毛猴*西游记
 					</p>
 				</div>
 			</div>
@@ -79,18 +106,25 @@
 		<hr width="80%">
 		<!-- 底部foot -->
 		<div id="foot">
-			<p> Copyright &copy; 2002-2021 www.qidian.com All Rights Reserved版权所有 上海玄霆娱乐信息科技有限公司<br/>
-			沪公网安备 31011502001275号网站备案/许可证号：沪B2-20080046-1 <br/>
-			出版经营许可证：新出发沪批字第 U3718 号 网络文化经营许可证：沪网文[2015]0081-031 （总）网出证（沪）字第006号<br/>
-			
-			请所有作者发布作品时务必遵守国家互联网信息管理办法规定，
-			<br/>我们拒绝任何色情小说，一经发现，即作删除！举报电话：010-59357051<br/>
-			
-			本站所收录的作品、社区话题、用户评论、用户上传内容或图片等均属用户个人行为。
-			<br/>如前述内容侵害您的权益，欢迎举报投诉，一经核实，立即删除，本站不承担任何责任<br/>
-			
-			联系方式 总机 021-61870500 地址：中国（上海）自由贸易试验区碧波路690号6号楼101、201室</p>
+			<p> Copyright &copy; 2021-2032  版权所有:守艺网 <br/>
+			请所有作者发布作品时务必遵守国家互联网信息管理办法规定 <br>
+			联系方式 1008611 地址：江西科技学院 信息工程学院</p>
 		</div>
 	</body>
+	<script type="text/javascript">
+		var index=0;
+		//改变图片
+		function ChangeImg() {
+			index++;
+			var a=document.getElementsByClassName("img-slide");
+			if(index>=a.length) index=0;
+			for(var i=0;i<a.length;i++){
+				a[i].style.display='none';
+			}
+			a[index].style.display='block';
+		}
+		//设置定时器，每隔两秒切换一张图片
+		setInterval(ChangeImg,3000);
+	</script>
 </html>
 

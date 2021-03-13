@@ -5,13 +5,15 @@
 	font-family: "estrangelo edessa";
 	
 	}
-	body{
-		background-color: rgb(49,142,133);
+
+	#login_left{
+		float: left;
 	}
 	#login{width: 400px;
-	height: 600px;
+	height: 450px;
+	float: left;
 	margin: 150px auto;
-	background-color: rgb(175,200,200);
+	background-color: rgb(157,36,36);
 	overflow: hidden;}
 	#login ul{
 		width: 350px;
@@ -26,14 +28,11 @@
 		text-align: center;
 		font-weight: bold;
 		list-style: none;
-		background-color: rgb(49,142,133);
+		/*background-color: rgb(49,142,133);*/
 	}
 	#login ul li:nth-child(1){
-		background-color: rgb(175,200,200);
+		/*background-color: rgb(175,200,200);*/
 		margin-bottom: 40px;
-	}
-	#login ul li:nth-child(4){
-		background-color: rgb(175,200,200);
 	}
 	#login ul li label{float: left;}
 	#login ul li a{float: right;text-decoration: none;color: #000000;}
